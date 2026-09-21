@@ -30,6 +30,11 @@ const users = [
   },
 ];
 
+// Note: the real admin login (preciousopia7@gmail.com) isn't listed here —
+// it's an account that already existed in this Supabase project from a
+// different app, and was granted role: "admin" via a one-off metadata
+// merge rather than created by this script.
+
 for (const u of users) {
   const { data, error } = await supabase.auth.admin.createUser({
     email: u.email,
