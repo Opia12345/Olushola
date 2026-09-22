@@ -1,6 +1,6 @@
 const STATS = [
   { value: "10+", label: "Years of Experience" },
-  { value: "150+", label: "Properties Closed" },
+  { value: "100+", label: "Properties Closed" },
   { value: "$40M+", label: "Transaction Value" },
   { value: "98%", label: "Client Satisfaction" },
 ];
