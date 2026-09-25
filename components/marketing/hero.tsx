@@ -30,14 +30,13 @@ export function Hero() {
 
           <p className="mt-6 max-w-lg text-base leading-relaxed text-cream/70 md:text-lg">
             Olusola Ogunyemi is more than a name. It&apos;s a promise of
-            integrity, excellence and impact. A personal brand built on
-            creating value, unlocking opportunities and building wealth that
-            lasts.
+            integrity, excellence and impact. A personal brand built on creating
+            value, unlocking opportunities and building wealth that lasts.
           </p>
 
           <p className="mt-6 font-display text-lg text-gold/90 italic">
-            &ldquo;Today, I create opportunities. Tomorrow, they&apos;ll call
-            it a legacy.&rdquo;
+            &ldquo;Today, I create opportunities. Tomorrow, they&apos;ll call it
+            a legacy.&rdquo;
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -48,7 +47,11 @@ export function Hero() {
               nativeButton={false}
             >
               View Portfolio
-              <HugeiconsIcon icon={ArrowRight02Icon} strokeWidth={2} className="size-4" />
+              <HugeiconsIcon
+                icon={ArrowRight02Icon}
+                strokeWidth={2}
+                className="size-4"
+              />
             </Button>
             <Button
               size="lg"
@@ -79,14 +82,22 @@ export function Hero() {
           <div className="absolute -bottom-6 -left-6 hidden w-56 rounded-2xl border border-gold/20 bg-ink-soft/95 p-4 shadow-xl backdrop-blur sm:block">
             <div className="flex items-center gap-1 text-gold">
               {Array.from({ length: 5 }).map((_, i) => (
-                <HugeiconsIcon key={i} icon={StarIcon} strokeWidth={1.5} className="size-3.5 fill-gold" />
+                <HugeiconsIcon
+                  key={i}
+                  icon={StarIcon}
+                  strokeWidth={1.5}
+                  className="size-3.5 fill-gold"
+                />
               ))}
             </div>
             <p className="mt-2 text-xs leading-relaxed text-cream/70">
-              &ldquo;Placeholder client testimonial goes here.&rdquo;
+              &ldquo;My experience working with Mr. Olusola Ogunyemi throughout
+              my acquisition of the HUTU Exclusive project was exceptional. From
+              the very beginning, he demonstrated a high level of
+              professionalism, discretion, and attention to detail.&rdquo;
             </p>
             <p className="mt-2 text-[11px] tracking-wide text-gold/80 uppercase">
-              Client Name · Project Name
+              Mr. Emmanuel Owowa · HUTU Exclusive Client
             </p>
           </div>
         </div>
