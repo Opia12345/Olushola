@@ -4,21 +4,21 @@ import { QuoteDownIcon } from "@hugeicons/core-free-icons";
 const TESTIMONIALS = [
   {
     quote:
-      "Placeholder testimonial copy describing the client's experience working on their project.",
-    name: "Client Name",
-    role: "Project / Property placeholder",
+      "Working with Mr. Olusola Ogunyemi to purchase my 3-bedroom flat with BQ at Katampe Main was smooth and reassuring. His transparency, attention to detail, and clear explanation of the CofO documentation gave me confidence throughout the process. He offered honest advice without pressure, and I would gladly recommend him as a trustworthy real estate professional.",
+    name: "Mr. Ibukun Adigun",
+    role: "Katampe Main – 3-Bedroom Flat with BQ",
   },
   {
     quote:
-      "Placeholder testimonial copy describing the client's experience working on their project.",
-    name: "Client Name",
-    role: "Project / Property placeholder",
+      "Mr. Olusola Ogunyemi understood what I was looking for and guided me through acquiring my 4-bedroom semi-detached duplex in Karsana. He clearly explained the property, estate security, and environment, answered my questions, and offered thoughtful advice without pressure. I appreciate his honesty and professionalism and recommend him as a reliable real estate consultant.",
+    name: "Mr. Olakunle",
+    role: "Karsana – 4-Bedroom Semi-Detached Duplex",
   },
   {
     quote:
-      "Placeholder testimonial copy describing the client's experience working on their project.",
-    name: "Client Name",
-    role: "Project / Property placeholder",
+      "Acquiring my warehouse at FO1 through Mr. Olusola Ogunyemi was a positive experience. He understood the investment perspective, communicated transparently, and gave clear, practical advice so I could make informed decisions. His discretion, integrity, and professionalism made the transaction straightforward. I confidently recommend him to anyone seeking a trustworthy real estate professional.",
+    name: "Mr. Obasanjo Taiwo",
+    role: "FO1 – Warehouse Investment",
   },
 ];
 
@@ -41,8 +41,12 @@ export function Testimonials() {
               key={i}
               className="rounded-2xl border border-ink/10 bg-white p-6 shadow-sm"
             >
-              <HugeiconsIcon icon={QuoteDownIcon} strokeWidth={1.5} className="size-6 text-gold" />
-              <p className="mt-4 text-sm leading-relaxed text-ink/70">
+              <HugeiconsIcon
+                icon={QuoteDownIcon}
+                strokeWidth={1.5}
+                className="size-6 text-gold"
+              />
+              <p className="mt-4 whitespace-pre-line text-sm leading-relaxed text-ink/70">
                 {t.quote}
               </p>
               <div className="mt-6 flex items-center gap-3">
