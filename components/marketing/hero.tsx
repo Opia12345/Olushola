@@ -68,7 +68,7 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-sm md:max-w-none">
           <div className="relative overflow-hidden rounded-3xl ring-1 ring-gold/20">
             <Image
-              src="/portfolio.png"
+              src="/portfolio.PNG"
               alt="Skyline view from a property secured by Olusola Ogunyemi"
               width={589}
               height={1010}
