@@ -29,7 +29,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-lg text-base leading-relaxed text-cream/70 md:text-lg">
-            Olusola Ogunyemi is more than a name. It&apos;s a promise — of
+            Olusola Ogunyemi is more than a name. It&apos;s a promise of
             integrity, excellence and impact. A personal brand built on
             creating value, unlocking opportunities and building wealth that
             lasts.
@@ -65,7 +65,7 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-sm md:max-w-none">
           <div className="relative overflow-hidden rounded-3xl ring-1 ring-gold/20">
             <Image
-              src="/portfolio.jpeg"
+              src="/portfolio.png"
               alt="Skyline view from a property secured by Olusola Ogunyemi"
               width={589}
               height={1010}
