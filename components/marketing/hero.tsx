@@ -97,7 +97,7 @@ export function Hero() {
               professionalism, discretion, and attention to detail.&rdquo;
             </p>
             <p className="mt-2 text-[11px] tracking-wide text-gold/80 uppercase">
-              Mr. Emmanuel Owowa · HUTU Exclusive Client
+              Mr. Emmanuel · HUTU Exclusive Client
             </p>
           </div>
         </div>

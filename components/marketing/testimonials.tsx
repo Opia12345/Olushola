@@ -5,7 +5,7 @@ const TESTIMONIALS = [
   {
     quote:
       "Working with Mr. Olusola Ogunyemi to purchase my 3-bedroom flat with BQ at Katampe Main was smooth and reassuring. His transparency, attention to detail, and clear explanation of the CofO documentation gave me confidence throughout the process. He offered honest advice without pressure, and I would gladly recommend him as a trustworthy real estate professional.",
-    name: "Mr. Ibukun Adigun",
+    name: "Mr. Ibukun",
     role: "Katampe Main – 3-Bedroom Flat with BQ",
   },
   {
@@ -17,7 +17,7 @@ const TESTIMONIALS = [
   {
     quote:
       "Acquiring my warehouse at FO1 through Mr. Olusola Ogunyemi was a positive experience. He understood the investment perspective, communicated transparently, and gave clear, practical advice so I could make informed decisions. His discretion, integrity, and professionalism made the transaction straightforward. I confidently recommend him to anyone seeking a trustworthy real estate professional.",
-    name: "Mr. Obasanjo Taiwo",
+    name: "Mr. Obasanjo",
     role: "FO1 – Warehouse Investment",
   },
 ];
